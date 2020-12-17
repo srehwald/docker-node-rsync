@@ -1,4 +1,4 @@
 FROM node:alpine
 
 # Install Rsync
-RUN apk add --no-cache git rsync openssh
+RUN apk add --no-cache git rsync openssh lftp
